@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 
 export async function GET() {
-    redirect("/api/v2");
+    redirect("/api/v2/users");
 }
 
 // Original v1 endpoint - basic user info
